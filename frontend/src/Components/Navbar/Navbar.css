@@ -1,0 +1,40 @@
+/* Add these styles to your Navbar.css file */
+
+.container {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 5rem;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .myLink {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .myLink:hover {
+    color: #007bff; /* or your preferred hover color */
+  }
+  
+  .loginBtn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .loginBtn:hover {
+    background-color: #0056b3; /* or your preferred hover color */
+  }
+  
